@@ -1,0 +1,60 @@
+.navbar-brand {
+  background: url(../img/header.png) center / contain no-repeat;
+  width: 200px;
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+
+#custom-navbar.navbar-default .navbar-brand {
+    color: rgba(255, 255, 255, 1);
+}
+#custom-navbar.navbar-default {
+    font-size: 15px;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-bottom-width: 0px;
+}
+#custom-navbar.navbar-default .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 0, 0, 0);
+}
+#custom-navbar.navbar-default .navbar-nav>li>a:hover,
+#custom-navbar.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(227, 95, 0, 0.38);
+}
+#custom-navbar.navbar-default .navbar-nav>.active>a,
+#custom-navbar.navbar-default .navbar-nav>.active>a:hover,
+#custom-navbar.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(227, 95, 0, 0.89);
+}
+#custom-navbar.navbar-default .navbar-toggle {
+    border-color: #e35f00;
+}
+#custom-navbar.navbar-default .navbar-toggle:hover,
+#custom-navbar.navbar-default .navbar-toggle:focus {
+    background-color: #e35f00;
+}
+#custom-navbar.navbar-default .navbar-toggle .icon-bar {
+    background-color: #e35f00;
+}
+#custom-navbar.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-navbar.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #000000;
+}
+
+
+@media only screen and (max-width : 768px){
+  .example-8 .navbar-brand {
+  padding: 0px;
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+}
+.example-8 .navbar-brand>img {
+  height: 100%;
+  width: auto;
+  padding: 7px 14px; 
+}
+}
